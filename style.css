@@ -1,0 +1,19 @@
+
+.extcontainer{
+    height: 300px;
+    width: 250px;
+    background-image: url('Capture.PNG');
+    margin: auto;
+    padding: 20px 10px;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+form{
+    margin: 15px;
+}
+ .username, .password, .rememberme, .Register{
+    border-radius: 20px;
+    
+                                             }
+                                             
+   

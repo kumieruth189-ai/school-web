@@ -1,0 +1,16 @@
+d/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+   text-align: center;
+   font-weight: bolder;
+   font-family: "arial black";
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2RgoNrHq5hpbqCfDLHT40jaHr65jZK9ciKA&s');
+   background-repeat: no-repeat;
+   width: x;
+   height:360px;
+   }

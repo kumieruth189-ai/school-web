@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 30px 30px;
+            border: 3px solid pink;
+        }
+        body{
+            border: 3px solid blue;
+        }
+        .extcontainer{
+            border: 3px solid cyan;
+        }
+        p,h1,h2,h3{
+            border: none;
+        }
+        div:empty{
+            background-color:beige ;
+            height: 60px;
+        }
+        :root{
+            border-radius: 15px;
+        }
+        h1:first-child{
+            text-decoration: underline;
+            font-size: italic;
+        }
+        h1:first-of-type{
+            background-color: aqua;
+        }
+        h1:last-child{
+            background-color: brown;
+        }
+        h1:last-of-type{
+            background-color: orange;
+        }
+        p:only-of-type{
+            background-color: cadetblue;
+        }
+        p:nth-child(3){
+            background-color: yellow;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="extcontainer">
+        <h1>h1 external container</h1>
+        <div class="innercontainer">
+            <h1>first header in contaier 1</h1>
+            <h2>second header in contaier 1</h2>
+            <p>first paragraph in container 1</p>
+            <p>second paragraph in container 1</p>
+            <p>third paragraph in container 1</p>
+        </div>
+        <div class="innercontainer">
+            <h2>first header in contaier 2</h2>
+            <h2>second header in contaier 2</h2>
+            <p>first paragraph in container 2</p>
+        </div>
+        <div class="innercontainer">
+            <p>only paragraph in container 3</p>
+        </div>
+        <div class="innercontainer">
+            <p>first paragraph in container 4</p>
+            <p>second paragraph in container 4</p>
+            <p>third paragraph in container 4</p>
+            <p>fourth paragraph in container 4</p>
+        </div>
+    </div>
+    <div></div>
+    <h3>first header 3 in body</h3>
+    <h3>second header 3 in body</h3>
+</body>
+</html>
