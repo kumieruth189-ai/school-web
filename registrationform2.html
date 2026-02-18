@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         .extcontainer{
-            width: 520px;
+            width: 750px;
             background-color: lightsteelblue;
             border: none;
             margin: auto;
@@ -41,10 +41,17 @@
             margin-bottom: 20px;
         }
 
-        .radiobutton label, .radiobutton input{
-            display: inline-block;
-              padding: 7px;
+        .gender-group {
+            display: flex;
+            gap: 30px; 
+            align-items: center;
+}
+        .checkbox{
+            display: flex;
+            gap: 30px; 
+            align-items: center;
         }
+
     </style>
 </head>
 <body>
@@ -67,23 +74,39 @@
             <p>Nationality</p>
              <input type="text" required>
         </div>
-        <div class="radiobutton">
-           <label>Gender</label>
-           <input type="radio">
-           <label>Male</label>
-           <input type="radio">
-           <label>Female</label>
-        <div class="internaldiv">
+       <div class="gender-group">
+        <p>Gender</p>
+  <label>
+    <input type="radio" name="gender" value="male"> Male
+  </label>
+
+  <label>
+    <input type="radio" name="gender" value="female"> Female
+  </label>
+</div>
+    <div class="checkbox">
+        <p>Interests</p>
+  <label>
+    <input type="checkbox" name="" id="">Web Development
+  </label>
+  <label>
+    <input type="checkbox" name="" id="">AI
+  </label>
+  <label>
+    <input type="checkbox" name="" id="">Networking
+  </label>
+  <label>
+    <input type="checkbox" name="" id="">Design
+  </label>
+    </div>
+        <div class="Qualification">
             <p>Qualification</p>
-            <select name="" id="Select Qualification">
-                <option></option>
-                <option></option>
-                <option></option>
-                
-            </select>
+            <input type="">
         </div>
-        <div class="internaldiv">
+        <div>
+             <div class="internaldiv">
            <label>Select Field</label>
+           <input type="text" name="" id="">
         <select>
             <optgroup label="Engineering"></optgroup>
             <option value="Software Engineering">Software Engineering</option>
@@ -96,13 +119,24 @@
             <option value="C2">C2</option>
         </select>
         </div>
-        <div class="internaldiv">
-            <p>Research Grade</p>
-            <input type="text" id="text">
+            <p>Experience(Years)</p>
+            <input type="text">
         </div>
         <div class="internaldiv">
             <p>Bsc/BA point</p>
             <input type="text" id="text">
+        </div>
+        <div>
+            <p>Research Grade</p>
+            <input type="text">
+        </div>
+        <div>
+            <p>Stream & Field</p>
+            <input type="text">
+        </div>
+        <div>
+            <p>Upload CV(PDF only)</p>
+            <input type="pdf">
         </div>
         </form>
       </div>
